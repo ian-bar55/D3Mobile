@@ -1,5 +1,7 @@
 {
   "name": "D3Mobile",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

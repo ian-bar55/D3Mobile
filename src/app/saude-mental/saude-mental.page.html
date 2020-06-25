@@ -20,11 +20,11 @@
     <ion-item>
       <ion-label stacked>Saúde mental</ion-label>
       <ion-select [(ngModel)]="model.saudeMental">
-        <ion-option value="1">Péssima</ion-option>
-        <ion-option value="2">Ruim</ion-option>
-        <ion-option value="3">Normal</ion-option>
-        <ion-option value="4">Boa</ion-option>
-        <ion-option value="5">Ótima</ion-option>
+        <ion-select-option [value]="1">Péssima</ion-select-option>
+        <ion-select-option [value]="2">Ruim</ion-select-option>
+        <ion-select-option [value]="3">Normal</ion-select-option>
+        <ion-select-option [value]="4">Boa</ion-select-option>
+        <ion-select-option [value]="5">Ótima</ion-select-option>
       </ion-select>
     </ion-item> 
     <ion-item>
@@ -46,11 +46,11 @@
   <ion-row>
     <ion-button (click)="buscarPorSaudeMental()">Buscar pessoas por Saúde Mental</ion-button>
     <ion-select [(ngModel)]="saudeMentalBusca">
-      <ion-option value="1">Péssima</ion-option>
-      <ion-option value="2">Ruim</ion-option>
-      <ion-option value="3">Normal</ion-option>
-      <ion-option value="4">Boa</ion-option>
-      <ion-option value="5">Ótima</ion-option>
+      <ion-select-option [value]="1">Péssima</ion-select-option>
+      <ion-select-option [value]="2">Ruim</ion-select-option>
+      <ion-select-option [value]="3">Normal</ion-select-option>
+      <ion-select-option [value]="4">Boa</ion-select-option>
+      <ion-select-option [value]="5">Ótima</ion-select-option>
     </ion-select>
   </ion-row>
 </ion-grid>
